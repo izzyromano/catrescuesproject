@@ -23,8 +23,5 @@ if (selectedOpt === "allgm") {
     }
 }
 
-// document.getElementById(this.value).style.display = "grid";
 
-
-// }
 
