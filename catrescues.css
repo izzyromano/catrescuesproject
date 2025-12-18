@@ -1,0 +1,134 @@
+body {
+font-family: "Open Sans", "Lato", Helvetica, sans-serif;
+font-style: normal;
+font-size: 12pt;
+font-optical-sizing: auto;
+}
+
+
+
+.hidden{
+    display: none;
+}
+.flex-container { 
+    display: flex;
+}
+nav ul {
+    display: flex;
+    padding: 0.5rem;
+    background-color: mediumpurple;
+    align-items: center;
+    list-style-type: none;
+    margin: 0;
+    font-size: 1.2rem;
+    flex-wrap: wrap;
+    min-width: 0
+}
+nav li {
+    background-color: orange;
+    flex: 1;
+    text-align: center;
+    min-width: 0;
+    margin: 0.3rem;
+    padding: 0.5rem;
+    text-align: center;
+    box-sizing: border-box;
+    
+}
+.heading {
+    background-color: wheat;
+    padding: 25px;
+    margin:10px;
+    text-align: center;
+}
+
+.map-container {
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    padding: 25px;
+    margin: 10px;
+    text-align: center;
+}
+/* .map-container iframe{
+    grid-area: auto;
+    grid-column: span;
+} */
+#chooseDist {
+    width: 350px;
+    padding: 10px;
+    font-size: 1.2rem;
+}
+/* text styling */
+.center {
+    text-align: center;
+}
+.justify {
+    text-align: justify;
+    display: inline-flex;
+}
+li a{
+    color: black;
+}
+a {
+  color: rgb(66, 141, 128);
+  text-decoration: none;
+}
+
+
+
+/* for the contents of dropdown result; not yet added on html */
+/* <div class="container">
+  <div>1</div>
+  <div>2</div>
+  <div>3</div>  
+  <div>4</div>
+  <div>5</div>
+</div> */
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: rgb(132, 141, 122);
+    padding: 20px;
+    margin: 10px;
+    column-gap: 1rem;
+    row-gap: 1rem;
+}
+.grid-item {
+    background-color: #f1f1f1;
+    border: 1px solid black;
+    padding: 20px;
+    font-size: 1.2rem;
+    text-align: center;
+    margin: 0;
+    min-width: 0;
+    box-sizing: border-box;
+    overflow-wrap: break-word;
+}
+.logo {
+    grid-column: 2; 
+    width: auto;
+    height: 100px;
+}
+
+@media (max-width: 767px) {
+    .grid-container {
+        grid-template-columns: 1fr;
+    }
+    .flex-container nav ul nav li{
+        flex-direction: row;
+        flex-wrap: nowrap;
+        height: auto;
+        min-width: 0;
+        text-align: center;
+        align-items: center;
+    }
+    nav ul {
+        flex-direction: column;
+    }
+    nav li {
+        width: 100%;           /* Ensures they span full width when stacked */
+        margin: 0.2rem 0;
+}
+}

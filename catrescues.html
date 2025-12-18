@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="catrescues.css">
+    <!-- Google Font - Google Sans -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <title>Cat Rescues in Greater Manchester</title>
+</head>
+<body>
+<header>
+  <nav>
+    <ul class="flex-container">
+        <li>
+            <a href="catrescues.html">Home</a>
+            </li>
+            <li>
+                <a href="">Cat Rescues</a>
+            </li>
+            <li>
+                <a href="">Donate</a>
+            </li>
+            <li>
+                <a href="">Contact</a>
+            </li>
+        </ul>
+    </nav>  
+</header>
+    <h1 class="heading">Cat Rescues and Shelters in Greater Manchester</h1>
+        <section class="map-container">
+            <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1qoVqQmjCkk4UbnUIixoOGpr2c9B26QY&ehbc=2E312F" width="80%" height="420px"></iframe>
+            <p class="justify">🐾 Important note: Many rescues rely on foster homes and volunteers; they do not have public offices and so may not appear on this map.<br>
+            <br>See full list of cat rescues below. Always book an appointment directly with the shelter before attempting to visit.</p>
+        </section>
+    <h2 class="center heading">Choose your town / city to view rescues in your local area:</h2>
+        <div class="center">
+            <select id="chooseDist" class="district"  name="district">
+            <option value="">Please choose your town / city</option>
+            <!-- value - blank? -->
+            <option value="manchester">Manchester</option>
+            <option value="stockport">Stockport</option>
+            <option value="tameside">Tameside</option>
+            <option value="oldham">Oldham</option>
+            <option value="rochdale">Rochdale</option>
+            <option value="bury">Bury</option>
+            <option value="bolton">Bolton</option>
+            <option value="wigan">Wigan</option>
+            <option value="salford">Salford</option>
+            <option value="trafford">Trafford</option>
+            <!-- <option value="allgm">All of Greater Manchester</option> -->
+            </select>
+        </div>
+
+        <div id="manchester" class="hidden grid-container">
+            <div class="grid-item">
+                <a href="https://www.bluecross.org.uk/greater-manchester-rehoming-and-advice-unit" target="_blank"><img src="blueCross.png" class="logo"></a>
+                <h3 class="rescue-name"><a href="https://www.bluecross.org.uk/greater-manchester-rehoming-and-advice-unit" target="_blank">Blue Cross - Greater Manchester Rehoming & Advice Unit</h3></a>
+                <p>Our centre helps to support people and pets across the north west. We’re dedicated to finding the right pet for you – and finding the right home for the pets and horses in our care. But we’re also here through any challenges you might be having.</p>
+                <p>Website: <a href="https://www.bluecross.org.uk/greater-manchester-rehoming-and-advice-unit" target="_blank">www.bluecross.org.uk/greater-manchester-rehoming-and-advice-unit</a></p>
+                <p>Address: <a href="https://maps.app.goo.gl/QvJ9hvy8Z7hBF4CJ7" target="_blank">48 Blackburn Street, Radcliffe, M26 1NQ, United Kingdom</a></p>
+                <p>Contact number: <a href="tel:03007771852">0300 777 1852</a></p>
+                <p>Email: <a href= "mailto:greatermanchester@bluecross.org.uk">greatermanchester@bluecross.org.uk</a></p>
+                <p><a href="https://www.bluecross.org.uk/greater-manchester-rehoming-and-advice-unit" target="_blank">Adopt a Cat</a></p>
+            </div>
+            <div class="grid-item">
+                <a href="https://www.cats.org.uk/manchester" target="_blank"><img src="catsProtection.png" class="logo"></a>
+                <h3 class="rescue-name"><a href="https://www.cats.org.uk/manchester" target="_blank">Cats Protection - Manchester</h3></a>
+                <p class="rescue-description">We're here to support cats and kittens in Manchester, covering postcodes: M1, M2, M4, M8, M9, M11, M12, M13, M14, M15, M18, M19, M20, M21, M40. Run by a small team of dedicated, cat-loving volunteers since 2017, we're passionate about improving the lives of cats and kittens in Manchester, working to find loving new homes for local cats in our care, and lost and found cats, as well as general education and awareness within the Manchester area.<br>(Registered charity no. 203644)</p>
+                <p>Website: <a href="https://www.cats.org.uk/manchester" target="_blank">hwww.cats.org.uk/manchester</a></p>
+                <p>Contact number: <a href= "tel:03452601243">03452 601243</p>
+                <p>Email: <a href= "mailto:enquiries@manchester.cats.org.uk">enquiries@manchester.cats.org.uk</a></p>
+                <p><a href="https://www.cats.org.uk/manchester" target="_blank">Adopt a Cat</a></p>
+                <p><a href="https://www.cats.org.uk/donate?b=509" target="_blank">Donate</a></p>
+            </div> 
+        </div> 
+
+        <div id="stockport" class="hidden grid-container">
+            <div class="grid-item">
+                <a href="https://www.cats.org.uk/stockport" target="_blank"><img src="catsProtection.png" class="logo"></a>
+                <h3 class="rescue-name"><a href="https://www.cats.org.uk/stockport" target="_blank">Cats Protection - Stockport</h3></a>
+                <p class="rescue-description">We're here to support cats and kittens in Stockport, covering postcodes: M22, M23, SK1, SK2, SK3, SK4, SK5, SK6, SK7, SK8. Run by a small team of dedicated, cat-loving volunteers, we're passionate about improving the lives of cats and kittens in Stockport, working to find loving new homes for local cats in our care, and lost and found cats, as well as general education and awareness within the Stockport area.<br>(Registered charity no. 203644)</p>
+                <p>Website: <a href="https://www.cats.org.uk/stockport" target="_blank">www.cats.org.uk/stockport</a></p>
+                <p>Contact number: <a href= "tel:03452601854">03452 601854</p>
+                <p>Email: <a href= "mailto:enquiries@stockport.cats.org.uk">enquiries@stockport.cats.org.uk</a></p>
+                <p><a href="https://www.cats.org.uk/stockport" target="_blank">Adopt a Cat</a></p>
+                <p><a href="https://www.cats.org.uk/donate?b=243" target="_blank">Donate</a></p>
+            </div> 
+        </div>
+        <div id="tameside" class="hidden grid-container">Tameside
+
+        </div>
+        <div id="oldham" class="hidden grid-container">Oldham
+
+        </div>
+        <div id="rochdale" class="hidden grid-container">Rochdale
+            <div class="grid-item">
+                <h3 class="rescue-name"><a href="https://www.facebook.com/groups/979379199593819" target="_blank">Bart's Legacy Cat Sanctuary</h3></a>
+                <p>Based in Rochdale, covering Rochdale, Oldham, and sometimes further afield for the right home. Bart's Legacy Cat Sanctuary is a refuge for stray cats and kittens.</p>
+                <p><a href="https://www.facebook.com/groups/979379199593819" target="_blank">Facebook group</a></p>
+                <p>To donate, please contact admin on Facebook group</p>
+                <p>Email: <a href= "mailto:bartslegacycatsanctuary@outlook.com">bartslegacycatsanctuary@outlook.com</a></p>
+            </div>
+            <div class="grid-item">
+                <a href="https://www.cats.org.uk/rochdale" target="_blank"><img src="catsProtection.png" class="logo"></a>
+                <h3 class="rescue-name"><a href="https://www.cats.org.uk/rochdale" target="_blank">Cats Protection - Rochdale</h3></a>
+                <p class="rescue-description">We’re here to support cats and kittens in Rochdale, covering postcodes: OL1 – OL4, OL8 – OL12, OL15, OL16, BB11 & M24. Run by a small team of dedicated, cat-lovers, we’re passionate about improving the lives of cats and kittens in Rochdale, working to find loving new homes for local cats in our care, offering support with neutering, and lost and found cats, as well as general education and awareness within the Rochdale area.<br>(Registered charity no. 203644)</p>
+                <p>Website: <a href="https://www.cats.org.uk/rochdale" target="_blank">www.cats.org.uk/rochdale</a></p>
+                <p>Contact number: <a href= "tel:01706522440">01706 522440</p>
+                <p>Email: <a href= "mailto:enquiries@rochdale.cats.org.uk">enquiries@rochdale.cats.org.uk</a></p>
+                <p><a href="https://www.cats.org.uk/rochdale" target="_blank">Adopt a Cat</a></p>
+                <p><a href="https://www.cats.org.uk/donate?b=219" target="_blank">Donate</a></p>
+            </div> 
+        </div> 
+        <div id="bury" class="hidden grid-container">Bury
+            <div class="grid-item">
+                <a href="https://www.bleakholt.org/" target="_blank"><img src="bleakholt.png" class="logo"></a>
+                <h3 class="rescue-name"><a href="https://www.bleakholt.org/" target="_blank">Bleakholt Animal Sanctuary</h3></a>
+                <p class="rescue-description">Provides sanctuary and rehoming for various animals, including dogs, cats, horses, and farm animals. It offers lifelong care for some, especially elderly or ill equines. Adoptable animals receive full health care and assessments to ensure suitable placement.<br>(Registered charity no. 1110503)</p>
+                <p>Website: <a href="https://www.bleakholt.org/" target="_blank">www.bleakholt.org</a></p>
+                <p>Address: <a href="https://maps.app.goo.gl/tghwiXKH3yy4jsdB6" target="_blank">Bury Old Rd, Edenfield, Ramsbottom, Bury BL0 0RX</a></p>
+                <p>Contact number:<a href="tel:01706822577"> 01706 822577</p></a>
+                <p>Email: <a href= "mailto:info@bleakholt.org">info@bleakholt.org</a></p>
+                <p><a href="https://www.bleakholt.org/lancashire-animal-sanctuary/adopt-a-cat/" target="_blank">Adopt a Cat</a></p>
+                <p><a href="https://www.bleakholt.org/help/donating/" target="_blank">Donate</a></p>
+            </div>
+        </div>
+        <div id="bolton" class="hidden grid-container">Bolton
+            <div id="bolton" class="grid-item">
+                <a href="https://avidsangelscatrescue.co.uk/" target="_blank"><img src="avidAngelsCatRescue.png" class="logo"></a>
+                <h3 class="rescue-name"><a href="https://avidsangelscatrescue.co.uk/" target="_blank">Avid’s Angels Cat Rescue</h3></a>
+                <p class="rescue-description">Avid’s Angels Cat Rescue is a registered charity based in Bolton which helps cats all around the North West. Our mission is to rescue, rehabilitate and rehome cats in need. We are dedicated to providing a safe and nurturing environment for every cat and kitten that comes into our care. Our team of passionate volunteers work tirelessly to ensure that each cat receives the love and attention they deserve. Thank you for supporting Avid’s Angels Cat Rescue in our efforts to help cats in need. <br>(Registered charity no. 1208935).</p>
+                <p>Website: <a href="https://avidsangelscatrescue.co.uk/" target="_blank">avidsangelscatrescue.co.uk</a></p>
+                <p>Address: <a href="https://maps.app.goo.gl/BWrLQ6T67h8UdAAi6" target="_blank"> 14 Shawcroft View, Bolton BL1 8UU </a></p>
+                <p>Contact number: <a href="tel:07833740133">07833 740133</a></p>
+                <p>Email: <a href= "mailto:admin@avidsangelscatrescue.co.uk"> admin@avidsangelscatrescue.co.uk </a></p>
+                <p><a href="https://avidsangelscatrescue.co.uk/cats-for-adoption/" target="_blank">Adopt a Cat</a></p>
+                <p><a href="https://avidsangelscatrescue.co.uk/ways-to-donate/" target="_blank">Donate</a></p>
+            </div>
+            <div class="grid-item">
+                <a href="https://www.cats.org.uk/bolton" target="_blank"><img src="catsProtection.png" class="logo"></a>
+                <h3 class="rescue-name"><a href="https://www.cats.org.uk/bolton" target="_blank">Cats Protection - Bolton & Radcliffe</h3></a>
+                <p class="rescue-description">We’re here to support cats and kittens in Bolton, covering postcodes: BL1, BL2, BL3, BL4, BL5, BL6, BL7, BL8, BL9, M26 and M45. Run by a small team of dedicated, cat-loving volunteers, we’re passionate about improving the lives of cats and kittens in Bolton, working to find loving new homes for local cats in our care, offering support with neutering, and lost and found cats, as well as general education and awareness within the Bolton area.<br>(Registered charity no. 203644)</p>
+                <p>Website: <a href="https://www.cats.org.uk/bolton" target="_blank">www.cats.org.uk/bolton</a></p>
+                <p>Contact number: <a href= "tel:07760780759">07760 780759</p>
+                <p>Email: <a href= "mailto:enquiries@bolton.cats.org.uk">enquiries@bolton.cats.org.uk</a></p>
+                <p><a href="https://www.cats.org.uk/bolton" target="_blank">Adopt a Cat</a></p>
+                <p><a href="https://www.cats.org.uk/donate?b=64" target="_blank">Donate</a></p>
+            </div>
+            <div class="grid-item">
+                <a href="https://boltonanimalshelter.org.uk/" target="_blank"><img src="destituteAnimalsShelter.png" class="logo"></a>
+                <h3 class="rescue-name"><a href="https://boltonanimalshelter.org.uk/" target="_blank">Destitute Animals Shelter</h3></a>
+                <p class="rescue-description">The Destitute Animals Shelter is a rescue charity dedicated to caring for the lost, stray and abandoned dogs and cats of the Bolton area. We have a non-destruction policy and are committed to reducing the unwanted cat and dog problem in this area by neutering every animal that we re-home.<br>(Registered charity no. 222935)</p>
+                <p>Website: <a href="https://boltonanimalshelter.org.uk/" target="_blank">boltonanimalshelter.org.uk</a></p>
+                <p>Address: <a href="https://maps.app.goo.gl/T6eb1cfURodvDspg8" target="_blank" >Northolt Dr, Bolton BL3 6NJ</a></p>
+                <p>Contact number: <a href= "tel:01204526486">01204 526486</p>
+                <p>Email: <a href= "mailto:"bolton@animalshelter.org.uk>bolton@animalshelter.org.uk</a></p>
+                <p><a href="https://boltonanimalshelter.org.uk/adopt-an-animal/" target="_blank">Adopt a Cat</a></p>
+                <p><a href="https://boltonanimalshelter.org.uk/donate/" target="_blank">Donate</a></p>
+            </div>
+        </div>
+        <div id="wigan" class="hidden grid-container">
+            <div class="grid-item">
+                <a href="https://www.facebook.com/people/Andreas-Legacy/100082326851757/" target="_blank"><img src="andreasLegacy.jpg" class="logo"></a>
+                <h3 class="rescue-name"><a href="https://catsguidancerescue.com/" target="_blank">Andrea's Legacy</h3></a>
+                <p class="rescue-description">A small charity offering assistance with low cost pet neutering, and helping cats in need in Leigh, Wigan and surrounding areas.</p>
+                <p><a href="https://www.facebook.com/people/Andreas-Legacy/100082326851757/" target="_blank">Facebook page</a></p>
+                <p>Email: <a href= "mailto:andreaslegacy2022@gmail.com">andreaslegacy2022@gmail.com</a></p>
+                <p><a href="https://www.facebook.com/profile.php?id=61557207980716" target="_blank">Donate</a></p>
+            </div>
+            <div class="grid-item">
+                <a href="https://catsguidancerescue.com/" target="_blank"><img src="catsGuidance.webp" class="logo"></a>
+                <h3 class="rescue-name"><a href="https://catsguidancerescue.com/" target="_blank">Cats Guidance </a></h3>
+                <p class="rescue-description">Based in Wigan. <br> Cats Guidance Rescue was founded in October 2018 and is a not for profit registered charity where cats come first. We are a small group of passionate volunteers dedicated to the rescue, rehabilitation and re-homing of cats and kittens in the Wigan and surrounding areas.<br>(Registered charity no. 1185873)</p>
+                <p>Website: <a href="https://catsguidancerescue.com/" target="_blank">catsguidancerescue.com</a></p>
+                <p>Charity shop address: <a href="https://maps.app.goo.gl/sR29Cpuy4YUVYHnZA" target="_blank">44 Scot Ln., Aspull, Wigan WN2 1YX</a></p>
+                <p>Email: <a href= "mailto:enquiries@catsguidancerescue.com">enquiries@catsguidancerescue.com</a></p>
+                <a href="https://catsguidancerescue.com/cats-for-adoption/">Adopt a Cat</a>
+                <p><a href="https://catsguidancerescue.com/fundraising/" target="_blank">Donate</a></p>
+            </div>
+            <div class="grid-item">
+                <a href="https://www.cats.org.uk/athertonwigan" target="_blank"><img src="catsProtection.png" class="logo"></a>
+                <h3 class="rescue-name"><a href="https://www.cats.org.uk/athertonwigan" target="_blank">Cats Protection - Atherton & Wigan</h3></a>
+                <p class="rescue-description">Based in Wigan, covering postcode areas WN1 to WN8, WA3, M29 and M46. Run by a small team of dedicated, cat-loving volunteers, we're passionate about improving the lives of cats and kittens in Atherton & Wigan, working to find loving new homes for local cats in our care, and lost and found cats, as well as general education and awareness within the Atherton & Wigan area.<br>(Registered charity no. 203644)</p>
+                <p>Website: <a href="https://www.cats.org.uk/athertonwigan" target="_blank">www.cats.org.uk/athertonwigan</a></p>
+                <p>Contact number: <a href= "tel:01942465321">01942 465321</p>
+                <p>Email: <a href= "mailto:enquiries@atherton.cats.org.uk">enquiries@atherton.cats.org.uk</a></p>
+                <p><a href="https://www.cats.org.uk/athertonwigan" target="_blank">Adopt a Cat</a></p>
+                <p><a href="https://www.cats.org.uk/donate?b=51" target="_blank">Donate</a></p>
+            </div>
+            <div class="grid-item">
+                <a href="https://www.facebook.com/profile.php?id=61563331212504" target="_blank"><img src="fluffAndFlockRescue.jpg" class="logo"></a>
+                <h3 class="rescue-name"><a href="https://www.facebook.com/profile.php?id=61563331212504" target="_blank">Fluff and Flock Rescue CIC</h3></a>
+                <p class="rescue-description"> Based in Wigan. A cat and small farm animal rescue covering Wigan, St Helens, West Lancashire. Rescue cats are cared for by a network of fosters care until permanent homes are found. All cats are neutered prior to rehoming or release. Feral cats with additional needs can remain at the sanctuary if needed.<br>(Registered charity no. CIC. 15922322)</p>
+                <p><a href="https://www.facebook.com/profile.php?id=61563331212504" target="_blank">Facebook page</a></p>
+                <p>Email: <a href= "mailto:fluffandflock@gmail.com">fluffandflock@gmail.com</a></p>
+                <p>Contact admin on Facebok page to adopt or donate.</p>
+            </div>
+        </div>
+        <div id="salford" class="hidden grid-container">Salford
+            <div class="grid-item">
+                <a href="https://www.facebook.com/profile.php?id=100069829901486" target="_blank"><img src="" class="logo"></a>
+                <h3 class="rescue-name"><a href="https://www.facebook.com/profile.php?id=100069829901486" target="_blank">Animals In Distress Sanctuary</h3></a>
+                <p class="rescue-description">Based in Salford. The group provides 24-hour rescue, rehoming, veterinary treatment, neutering and a micro-chipping scheme, education and advice programmes. Their work involves strays, abandoned animals, cruelty cases and road traffic accidents - and with their new Retirement Home, they can offer long term care to older animals.<br>(Registered charity no. 515886)</p>
+                <p>Address: <a href="https://maps.app.goo.gl/MwJGKh4QAY8mckKU8" target="_blank">55 Silver St, Irlam, Salford, Greater Manchester, M44 6HT</a></p>
+                <p>Website: <a href="https://www.animals-in-distress.co.uk" target="_blank">www.animals-in-distress.co.uk</a> (not in use)</p>
+                <p><a href="https://www.facebook.com/profile.php?id=100069829901486" target="_blank">Facebook page</a></p>
+                <p><a href="https://www.facebook.com/groups/38467907786" target="_blank">Facebook group</a></p>
+                <p>Contact number: <a href="tel:01617752221">01617 752221</a></p>
+                <p>Email: <a href= "mailto:fieldofdreams@hotmail.co.uk">fieldofdreams@hotmail.co.uk</a></p>
+                <p><a href="https://www.gofundme.com/f/5f9cz-help-urgently-needed?fbclid=IwY2xjawOuL4BzcnRjBmFwcF9pZBAyMjIwMzkxNzg4MjAwODkyAAEevqD95bDfeYirNzvvJXVhU6eBJzzjs9qGDC-DExMKnXnUJpO_8vrkI2h2QaM&brid=rgQtAHMzZXS69DE6emxFnQ" target="_blank">Donate</a></p>
+            </div>
+        </div>
+        <div id="trafford" class="hidden grid-container">TRAFFORD
+            <div class="grid-item">
+                <a href="https://www.cats.org.uk/trafford" target="_blank"><img src="catsProtection.png" class="logo"></a>
+                <h3 class="rescue-name"><a href="https://www.cats.org.uk/trafford" target="_blank">Cats Protection - Trafford</h3></a>
+                <p class="rescue-description">We’re here to support cats and kittens in Trafford, covering postcodes: M17, M31, M32, M33, M41, WA13, WA14, WA15. Run by a small team of dedicated, cat-loving volunteers, we’re passionate about improving the lives of cats and kittens in Trafford, working to find loving new homes for local cats in our care, offering support with neutering, and lost and found cats, as well as general education and awareness within the Trafford area.<br>(Registered charity no. 203644)</p>
+                <p>Website: <a href="https://www.cats.org.uk/trafford" target="_blank">www.cats.org.uk/trafford</a></p>
+                <p>Contact number: <a href= "tel:01616102189">0161 6102189</p>
+                <p>Email: <a href= "mailto:adoption@trafford.cats.org.uk">adoption@trafford.cats.org.uk</a></p>
+                <p><a href="https://www.cats.org.uk/trafford" target="_blank">Adopt a Cat</a></p>
+                <p><a href="https://www.cats.org.uk/donate?b=267" target="_blank">Donate</a></p>
+            </div>
+            <div class="grid-item">
+                <a href="https://www.cheshirecatsrescue.co.uk/" target="_blank"><img src="cheshireCatsRescue.png" class="logo"></a>
+                <h3 class="rescue-name"><a href="https://www.cheshirecatsrescue.co.uk/" target="_blank">Cheshire Cats Rescue</h3></a>
+                <p class="rescue-description">Based in Altrincham. Dedicated to rescuing and re-homing stray cats and kittens.<br>(Registered charity no. 1198649)</p>
+                <p>Website: <a href="https://www.cheshirecatsrescue.co.uk/" target="_blank">www.cheshirecatsrescue.co.uk/</a></p>
+                <p>Address: <a href="" target="_blank" >address</a></p>
+                <p>Contact number: <a href= "tel:07795102927">07795102927</p>
+                <p>Email: <a href= "mailto:cheshirecats1@outlook.com">cheshirecats1@outlook.com</a></p>
+                <p><a href="https://www.cheshirecatsrescue.co.uk/adopt" target="_blank">Adopt a Cat</a></p>
+                <p><a href="https://www.cheshirecatsrescue.co.uk/donate.html" target="_blank">Donate</a></p>
+            </div> 
+        </div>
+        <!-- <div id="allgm" class="hidden grid-container">All of Greater Manchester
+
+        </div> -->
+
+
+</body>
+
+
+<script src="catrescues.js"></script>
+</html>
+
+
+<!-- 
+    <div class="grid-item">
+            <a href="" target="_blank"><img src="" class="logo"></a>
+            <h3 class="rescue-name"><a href="" target="_blank"></h3></a>
+            <p class="rescue-description"></p>
+            <p>Website: <a href="" target="_blank">Website</a></p>
+            <p>Address: <a href="" target="_blank" >address</a></p>
+            <p>Contact number: <a href= "tel:">number</p>
+            <p>Email: <a href= "mailto:">email</a></p>
+            <p><a href="" target="_blank">Adopt a Cat</a></p>
+            <p><a href="" target="_blank">Donate</a></p>
+    </div> 
+-->
+
+
